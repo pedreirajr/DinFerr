@@ -72,7 +72,7 @@ ui <-
                         tags$table(style="width:100%",
                                    tags$tr(width = "50%",
                                            tags$td(width = "50%",align = 'center',
-                                                   numericInput('x_v','Número de eixos: \\(x_v\\)',2,4,8,2,width = '60%')),
+                                                   numericInput('x_v','Número de eixos: \\(x_v\\)',4,2,8,2,width = '60%')),
                                            tags$td(width = "50%",
                                                    sliderInput('A_v','Área Frontal: \\(A_v\\) (\\(m^2\\))',7,13,9,0.1, width = '95%'))
                                    )
